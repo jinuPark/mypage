@@ -1,21 +1,94 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-	<meta property="og:title" content="╧заЬ©Л - га╥нгй ╦╣е╘">
-	<meta property="og:description" content="╬Н╪╜©м дз╣Ыю╨ цЁю╫юлаЖ?">
-	<meta property="og:image" content="╟Ью╞гр юл╧лаЖ">
+	<meta property="og:title" content="К╟∙Л╖└Л ╟ - М■└К║°М∙└ К╖│М│╛">
+	<meta property="og:description" content="Л√╢Л└°Л≥─ Л╫■К■╘Л²─ Л╡≤Л²▄Л²╢Л╖─?">
+	<meta property="og:image" content="ЙЁ╣Л°═М∙═ Л²╢К╞╦Л╖─">
 	<script type> </script>
-	<title>╧заЬ©Л - га╥нгй╦╣е╘ </title>
+	<title>К╟∙Л╖└Л ╟ - М■└К║°М∙└К╖│М│╛ </title>
 	<style>
+	@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+	* {
+    font-family: "Pretendard",serif;
+	}
 		body {
 			background-color: #44398A;
 		}
 		.profile {
 			width: 100px;
 			height: 100px;
+			
+			backgorund-color: green;
+			border-radius: 100%;
+			
+			border : 2px solid white;
+			
+			background-image: url('Л┼╓М▄▄К╔╢М┐─Л╫■К■╘М│╢К÷╫.png');
+			background-position: center;
+			background-size: cover;
 		}
+		.main {
+			color: white;
+			font-size: 20px;
+			
+			margin-top: 30px;
+			margin-bottom: 10px;
+		}
+		.sub {
+			color: white;
+			font-size: 20px;
+			
+			margin-top: 0px;
+		}
+		.wrap {
+			width: 300px;
+			margin: 30px auto 0px auto;
+
+		    display: flex;
+		    flex-direction: column;
+		    justify-content: center;
+		    align-items: center;
+		}
+		.wrap > a {
+			width: 300px;
+			height: 50px;
+			
+			background-color: white;
+			border-radius: 8px;
+			
+			margin-bottom: 10px;
+			
+			font-size: 14px;
+			font-weight: bold;
+			color: #44398A;
+			
+		    display: flex;
+		    flex-direction: column;
+		    justify-content: center;
+		    align-items: center;			
+			
+			text-decoration: none;
+			
+			box-shadow: 3px 3px 5px 0px black;
+		}
+		.wrap > a:hover {
+			background-color: #f2f2f2;
+			font-size: 15px;
+		}
+			
+	</style>
 </head>
 <body>
-	<div class="profile"></div>
+	<div class="wrap">
+		<div class="profile"></div>
+		<h1 class="main">К╔╢М┐└Л²╢</h1>
+		<p class="sub">Л╫■К■╘ Л╒▀Л∙└М∙≤Л└╦Л ■?</p>
+		<a target="_blank" href="https://spartacodingclub.kr/">Л┼╓М▄▄К╔╢М┐─Л╫■К■╘М│╢К÷╫</a>
+		<a target="_blank" href="https://hanghae99.spartacodingclub.kr/">М∙╜М∙╢99</a>
+		<a target="_blank" href="https://chang.spartacodingclub.kr/">Л╟╫Л≈┘ К╤─М┼╦Л╨═М■└ Л╟╫</a>
+		<a target="_blank" href="https://ddingdong.spartacodingclub.kr/">К²╣К▐≥Л╫■К■╘</a>
+	</div>
 </body>
 </html>
